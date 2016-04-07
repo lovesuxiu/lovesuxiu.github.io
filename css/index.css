@@ -1,0 +1,245 @@
+/*
+* @Author: Administrator
+* @Date:   2016-02-27 19:36:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-07 16:54:32
+*/
+/*header,footer,section,aside,article,hgroup,div,nav{
+  border: 1px dotted #abc;
+}*/
+/*nav 上面的开始*/
+  .love_suxiu {
+    position: relative;
+    min-height: 100%;
+    background-color: #fff;
+    width: 100%;
+    z-index: 20;
+  }
+  .love_suxiu .navbar {
+      background: #000;
+      position: relative;
+  }
+  .love_suxiu .navbar .navbar_content {
+    line-height: 40px;
+    position: relative;
+  }
+  .love_suxiu .navbar .navbar_content .unfold {
+    display: none;
+  }
+  .love_suxiu .navbar .navbar_content li{
+    margin: 0px 5px;
+  }
+  .love_suxiu .navbar .navbar_content .ul_content li:nth-child(1){
+
+  }
+  .love_suxiu .navbar .navbar_content li a {
+    font-size: 14px;
+  }
+  .navbar .navbar_left_bottom {
+    height: 40px;
+  }
+  .test {
+    height: 50px;
+  }
+  .love_suxiu .navbar .navbar_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .love_suxiu .navbar .toggle{
+    border-color: #ddd;
+    margin-top: 6px;
+  }
+
+  .love_suxiu .navbar .navbar_right .icon_bar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+    margin-top: 4px;
+  }
+  .love_suxiu .navbar .toggle span:nth-child(1){
+    margin-top: 0px;
+  }
+/*nav上面的结束*/
+/*header轮播图开始*/
+
+
+/*header轮播图结束*/
+/*分类导航条*/
+  .navbar2-content{
+    position: relative;
+    /*overflow: hidden;*/
+    border: 1px solid #e0e0e0;
+    overflow: auto;
+  }
+  .navbar2-content .content {
+    width: 636px;
+    height: 35px;
+  }
+  .navbar2-content .content li{
+      height: 35px;
+      background: #fff;
+      text-align: center;
+      line-height: 35px;
+      padding: 0px 26px;
+      float: left;
+  }
+  .navbar-content .ul_content li a{
+    font-size: 14px;
+  }
+  .navbar2-content .content .current{
+    background: #e0e0e0;
+  }
+/*详细导航条*/
+/*section开始部分*/
+  .section {
+    border: 1px dotted #e0e0e0;
+  }
+  .section .section_introduce_suxiu{
+
+  }
+  /*苏绣的文化开始*/
+  .section .section_introduce_suxiu {
+    position: relative;
+  }
+  .section .section_introduce_suxiu h3{
+    color: #ff0000;
+  }
+  .section .introduce_suxiu_content img{
+    float: left;
+  }
+  .section .second img{
+    height: 322px;
+    width: 100%;
+  }
+  /*苏绣的文化结束*/
+  /*沈净心个人作品开始*/
+  .introduce_actor .SJX_introduce {
+    font: 400 12px/20px arial,sans-serif;
+  }
+  .introduce_actor .SJX_introduce img{
+      float: left;
+  }
+  /*沈净心个人作品结束*/
+  /*培训课程开始*/
+  .section .introduce_train ul li {
+      height: 95px;
+      margin-top: 5px;
+      border-bottom: 1px solid #000000;
+  }
+  .section .introduce_train ul li img{
+      float: left;
+      width: 154px;
+      height: 95px;
+  }
+  .section .introduce_train ul li span {
+      float: right;
+      display: inline-block;
+  }
+  /*培训课程结束*/
+  /*制作作品开始*/
+  .section .introduce_makework{}
+  .introduce_makework img {
+    width: 100%;
+  }
+  /*制作作品结束*/
+  /*苏绣鉴别课程的开始*/
+  .section .introduce_identify {}
+  .introduce_identify img {
+    width: 100%;
+  }
+  /*苏绣鉴别课程的结束*/
+  /*关于我们开始*/
+  .section .about_ours{}
+  /*关于我们结束*/
+/*section结束部分*/
+/*footer开始部分*/
+  .footer-nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0px;
+    z-index: 999;
+    background: #ffffff;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border-top: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    margin: 0 auto;
+  }
+  .footer-nav li {
+    float: left;
+    width: 33%;
+    height: 50px;
+  }
+  .footer-nav li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+  }
+  .footer-nav li a span {
+    display: block;
+    margin: 7px auto 0;
+    vertical-align: middle;
+    height: 21px;
+    width: 21px;
+    background: url(../images/icon/foot-icon.png) no-repeat;
+  }
+  .footer-nav li:nth-child(1) a span{
+    background-position: -27px -250px;
+  }
+  .footer-nav li:nth-child(2) a span{
+    background-position: -27px -281px;
+  }
+  .footer-nav li:nth-child(3) a span{
+    background-position: -28px -315px;
+  }
+  .footer-nav li:nth-child(1) a span:hover {
+    background-position: -25px -250px;
+  }
+/*footer结束部分*/
+
+
+/*login的css部分*/
+.login {
+  width: 100%;
+  height: 100%;
+}
+.login .header-login {
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  /*margin-top: 30px;*/
+}
+.login .header-login h1 {
+  text-align: center;
+  line-height: 40px;
+}
+.login .header-login span {
+  display: inline-block;
+  float: right;
+}
+.login .header-login .login_input {
+
+}
+.login .header-login .login_input input{
+  width: 460px;
+  height: 30px;
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+/*login的css部分*/
